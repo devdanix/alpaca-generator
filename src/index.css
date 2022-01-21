@@ -1,13 +1,139 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  overflow: hidden;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4%;
+  background: #fff;
+}
+
+#background {
+  width: 500px;
+  height: 500px;
+}
+
+.button {
+  border: 1px solid #82a8d1;
+  padding: 10px 15px 10px 15px;
+  color: #82a8d1;
+  border-radius: 35px;
+  min-width: 70px;
+  font-size: 18px;
+  margin-right: 15px;
+  margin-top: 10px;
+  background: transparent;
+}
+
+.button:hover {
+  color: #fff;
+  background: #0453a8;
+  border-color: #0453a8;
+}
+
+div[id*="base"] {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+.buttons-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.button-titles {
+  margin-bottom: 20px;
+  width: 100%;
+  color: #0453a8;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.active-category,
+.active-subcategory {
+  color: #fff;
+  background: #0453a8;
+  border-color: #0453a8;
+}
+
+.title {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 55px;
+  color: #0453a8;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.alpaca-img {
+  position: absolute;
+}
+
+.nose,
+.ears {
+  z-index: 0;
+}
+
+.accessories,
+.eyes,
+.mouth {
+  z-index: 1;
+}
+
+.alpaca-design {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.action-button {
+  width: 40%;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-button:hover {
+  background-color: #e1efff;
+  color: #0453a8;
+  cursor: pointer;
+}
+
+.action-button-title {
+  margin-left: 5px;
+}
+
+.action-buttons-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  max-width: 500px;
 }

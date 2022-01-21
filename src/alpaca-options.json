@@ -1,0 +1,71 @@
+{
+  "Hair":[
+    "Bang",
+    "Curls",
+    "Default",
+    "Elegant",
+    "Fancy",
+    "Quiff",
+    "Short"
+  ],
+  "Accessories":[
+    "Earings",
+    "Flower",
+    "Glasses",
+    "Headphone"
+  ],
+  "Backgrounds":[
+    "Blue 50",
+    "Blue 60",
+    "Blue 70",
+    "Darkblue 30",
+    "Darkblue 50",
+    "Darkblue 70",
+    "Green 50",
+    "Green 60",
+    "Green 70",
+    "Grey 40",
+    "Grey 70",
+    "Grey 80",
+    "Red 50",
+    "Red 60",
+    "Red 70",
+    "Yellow 50",
+    "Yellow 60",
+    "Yellow 70"
+  ],
+  "Ears":[
+    "Default",
+    "Tilt Backward",
+    "Tilt Forward"
+  ],
+  "Eyes":[
+    "Angry",
+    "Default",
+    "Naughty",
+    "Panda",
+    "Smart",
+    "Star"
+  ],
+  "Leg":[
+    "Bubble Tea",
+    "Cookie",
+    "Default",
+    "Game Console",
+    "Tilt Backward",
+    "Tilt Forward"
+  ],
+  "Mouth":[
+    "Astonished",
+    "Default",
+    "Eating",
+    "Laugh",
+    "Tongue"
+  ],
+  "Neck":[
+    "Bend Backward",
+    "Bend Forward",
+    "Default",
+    "Thick"
+  ]
+}
